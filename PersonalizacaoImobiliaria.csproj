@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -14,9 +14,13 @@
 
   <ItemGroup>
     <Compile Remove="Infrastructure\Service\**" />
+    <Compile Remove="PersonalizacaoImobiliariaTest\**" />
     <Content Remove="Infrastructure\Service\**" />
+    <Content Remove="PersonalizacaoImobiliariaTest\**" />
     <EmbeddedResource Remove="Infrastructure\Service\**" />
+    <EmbeddedResource Remove="PersonalizacaoImobiliariaTest\**" />
     <None Remove="Infrastructure\Service\**" />
+    <None Remove="PersonalizacaoImobiliariaTest\**" />
   </ItemGroup>
 
   <ItemGroup>
